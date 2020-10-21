@@ -19,6 +19,7 @@ export default function Paragraph() {
       <button id="click" onClick={handleClick}>
         Click
       </button>
+      <p id="para"></p>
     </div>
   );
 }
