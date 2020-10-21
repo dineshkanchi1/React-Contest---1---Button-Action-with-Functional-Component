@@ -8,13 +8,17 @@ export default function Paragraph() {
     setPara(
       "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
     );
+    let container = document.getElementById("container");
+    let p = document.createElement("p");
+    p.setAttribute("id", "para");
+    p.innerHTML = p;
+    container.appendChild(p);
   };
   return (
-    <>
+    <div id="container">
       <button id="click" onClick={handleClick}>
         Click
       </button>
-      <p id="para">{para}</p>
-    </>
+    </div>
   );
 }
