@@ -9,7 +9,7 @@ export default function Paragraph() {
       "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
     );
     let container = document.getElementById("container");
-    if (container.childElementCount == 2) return;
+    if (container.childElementCount === 2) return;
     let p = document.createElement("p");
     p.setAttribute("id", "para");
     p.innerHTML = para;
