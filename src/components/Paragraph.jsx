@@ -1,8 +1,8 @@
 import React, { Component, useState } from "react";
 import "./../styles/App.css";
 
-function Paragraph() {
-  const [para, setPara] = useState("");
+export default function Paragraph() {
+  const [para, setPara] = React.useState("");
 
   const handleClick = () => {
     setPara(
@@ -18,5 +18,3 @@ function Paragraph() {
     </>
   );
 }
-
-export default Paragraph;
