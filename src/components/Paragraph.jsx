@@ -6,7 +6,7 @@ export default function Paragraph() {
 
   const handleClick = () => {
     setPara(
-      "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy "
+      "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
     );
   };
   return (
