@@ -11,7 +11,7 @@ export default function Paragraph() {
     let container = document.getElementById("container");
     let p = document.createElement("p");
     p.setAttribute("id", "para");
-    p.innerHTML = p;
+    p.innerHTML = para;
     container.appendChild(p);
   };
   return (
